@@ -71,7 +71,10 @@ Git stash apply - აღადგენსშენახულ ცვლილ�
 
 ● git stash -u - მოქმედებს Untracked ფაილებზე
 ● git stash -a - მოქმედებს Ignored ფაილებზე
+თუ მინდა 5 stash 5-ჯერ გავაკეთებ ესეთ რამეს ჯერ გავაკეთებ ფაილს მერე git add . მერე git commit -m "file1" და მერე git stash  
+git stash 
 
+როცა push გავაკეთებ და შეიქნმნება კონფლიქტი ჯერ ვაკეთებ git pull-ს ჩავასწორებ ფაილს და მერე ისევ გავუკეთებ push-ს
 
 
 
